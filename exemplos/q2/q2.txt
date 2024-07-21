@@ -1,0 +1,5 @@
+Escreva um programa que implementa classes relacionadas a pelo menos três figuras geométricas, como por exemplo, quadrado, triângulo e
+trapézio, onde todas possuem um padrão de serviço relacionados ao cálculo de área e perímetro. Logo, todas deverão possuir os métodos
+calculateArea() e calculatePerimeter(), além de atributos internos associados às suas arestas e respectivos valores. Na Main, instancie três
+figuras geométricas diferentes e calcule a área e o perímetro de todas, exibindo que valores foram usados nos cálculos a partir dos atributos da
+classe.

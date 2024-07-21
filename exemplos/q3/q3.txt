@@ -1,0 +1,31 @@
+* Marmitas de terceiros, tais marmitas são vendidas em quantidade limitada diariamente.
+
+* Marmitas do dia, tais marmitas são vendidas em quantidade limitada diariamente e existe um desconto associado por marmita, as outras
+opções de venda de marmita não oferecem desconto.
+
+* Marmitas do cliente, tais marmitas são vendidas em quantidade ilimitada diaramente e o cliente pode “montar” a marmita como desejar,
+contanto que siga as regras de validação.
+
+Para que uma marmita seja vendida é necessário saber o custo da mesma, a lista de ingredientes associadas aquela marmita a quantidade de
+cada ingrediente. : Preço da marmita, igredientes utilizados e quantidades
+
+
+-- Uma marmita pode ter até 3 igredientes de cada tipo (proteuna, vitamina, carboidrato, Molho)
+-- de cada igrdiente, temos que a quantidade é limitada, e pode ser até 99
+
+
+inserida no sistema 
+
+Cliente pode inserir até dois catálofos diferentes. Um referente terceiro e outro a dia
+
+é decidido quantos daquela marmita existe. Só um tipo de marmita por vez
+
+Remoção do sitema: 
+
+
+Sistema -> Catalogos : Dia e Terceiros -> Vendedor insere -> Criente tira quantidade
+
+    -- Definimos a quantidade de marmita no momento de fazer a marmita (Duas sub classes com seus tratamentos :: Terceiro e Dia)
+     -- Cada Loja produz sua própria marmita e deixa na loja
+     -- Tem que fazer função de criar marmita 
+     -- Tem que seguir com as regras de ser do Dia ou de Terceiro
